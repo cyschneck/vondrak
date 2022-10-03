@@ -19,11 +19,11 @@ setup(
     description=("A Python implementation of Vondrák's long term precession "
                  "model and Fortran code."),
     long_description=read('README.rst'),
-    url='https://github.com/digitalvapor/vondrak',
-    download_url='https://github.com/digitalvapor/vondrak/tarball/{0}'
+    url='https://github.com/dreamalligator/vondrak',
+    download_url='https://github.com/dreamalligator/vondrak/tarball/{0}'
         .format(__version__),
     author='Tom Spalding',
-    author_email='tom@antivapor.net',
+    author_email='tom@blackforestbotanics.com',
     keywords=['astronomy', 'precession', 'vondrak', 'space', 'proper motion'],
     license='MIT',
     packages=[
@@ -48,6 +48,11 @@ setup(
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
         'Topic :: Scientific/Engineering :: Astronomy'
     ],
     tests_require=['pytest'])
